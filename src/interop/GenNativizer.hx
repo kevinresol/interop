@@ -43,7 +43,7 @@ class GenNativizer {
 				}
 			});
 		}
-		return EObjectDecl(ret).at().log();
+		return EObjectDecl(ret).at();
 	}
 	public static function array(e:Expr):Expr {
 		return
